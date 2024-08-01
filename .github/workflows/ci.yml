@@ -17,7 +17,7 @@ jobs:
 
       - name: Auto green
         run: |
-          git config --local user.email canmicn@gmail.com
+          git config --local user.email CanmiCN@gmail.com
           git config --local user.name Canmi
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
